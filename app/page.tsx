@@ -3,7 +3,7 @@ import Header from "@/components/header";
 
 export default function Home() {
   return (
-    <div className="m-16">
+    <div className="m-16 mt-32">
       <div className="flex flex-wrap justify-between">
         <Header />
         <SideBar />
