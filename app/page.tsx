@@ -2,6 +2,7 @@ import SideBar from "@/components/sidebar";
 import Header from "@/components/header";
 import Skills from "@/components/sections/skills/skills";
 import { ChevronDown } from "lucide-react";
+import ProfessionalExperiences from "@/components/sections/professional-experiencies/professional-experiences";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
         <ChevronDown className="absolute bottom-8 left-1/2 -translate-x-1/2" />
       </div>
       <Skills />
+      <div className="my-16"/>
+      <ProfessionalExperiences />
     </div>
   );
 }
