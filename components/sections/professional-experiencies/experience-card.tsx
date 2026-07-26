@@ -6,8 +6,10 @@ import { useMemo, useState } from "react";
 import ExperienceDialog from "./experience-dialog";
 import { experience } from "@/lib/db/db-types";
 import { formatDateMonthYear } from "@/lib/format-date";
+import { useTranslation } from "react-i18next";
 
 export default function ExperienceCard(props: { experience: experience }) {
+  const {t} = useTranslation();
   const { experience } = props;
   const [dialogOpen, setDialogOpen] = useState(false);
 
@@ -50,7 +52,7 @@ export default function ExperienceCard(props: { experience: experience }) {
         <div>
           <h1 className="text-3xl">{experience.title}</h1>
           <h2>
-            {experience.location}, {formattedDates.started_at} -{" "}
+            {experience.location ?? t("misc.remote")}, {formattedDates.started_at} -{" "}
             {formattedDates.ended_at}
           </h2>
           <h2 className="mt-2">{experience.role_description["pt-BR"]}</h2>

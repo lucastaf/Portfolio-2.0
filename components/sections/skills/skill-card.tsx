@@ -21,7 +21,12 @@ export default function SkillCard(props: { skill: skill }) {
         x: 0,
       }}
     >
-      <div className={`p-2 bg-[${skill.bg_color}]/30 rounded-lg`}>
+      <div
+        className={"p-2 rounded-lg"}
+        style={{
+          backgroundColor: `${skill.bg_color}`, // 30% de opacidade
+        }}
+      >
         <Image src={skill.logo} width={30} height={30} alt="logo" />
       </div>
       <h1 className="text-xl">{skill.name}</h1>

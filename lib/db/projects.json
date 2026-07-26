@@ -8,10 +8,73 @@
     "date": "2025",
     "external_link": "https://plataforma.spcapital.com.BR",
     "banner": "/projects/plataforma-sp-capital.png",
-    "skills": ["typescript"],
+    "skills": [
+      "typescript",
+      "python",
+      "express",
+      "nest",
+      "prisma",
+      "react",
+      "tailwind",
+      "mysql",
+      "postgresql",
+      "rabbitmq",
+      "aws",
+      "linux",
+      "docker",
+      "githubactions",
+      "n8n",
+      "jira",
+      "github"
+    ],
     "description": {
       "en-US": "Internal platform USed by SP Capital for managing leads",
       "pt-BR": "Plataforma interna utilizada pela empresa SP Capital para gestão de leads"
+    }
+  },
+  {
+    "title": {
+      "en-US": "TNP - Todos nós podemos",
+      "pt-BR": "TNP - Todos nós podemos"
+    },
+    "type": "web",
+    "date": "2024",
+    "external_link": "https://app.todosnospodemos.com.br",
+    "banner": "/projects/tnp.png",
+    "skills": ["next", "react", "javascript", "typescript", "mysql"],
+    "description": {
+      "en-US": "Credit and payment platform focused on collaborative growth",
+      "pt-BR": "Plataforma de crédito e pagamento focada no crescimento colaborativo"
+    }
+  },
+  {
+    "title": {
+      "en-US": "Estudante ID",
+      "pt-BR": "Student ID"
+    },
+    "type": "web",
+    "date": "2026",
+    "external_link": "https://github.com/caiorosa-dev/student-id-app",
+    "banner": "/projects/tnp.png",
+    "skills": ["next", "react", "javascript", "typescript", "mysql"],
+    "description": {
+      "en-US": "Credit and payment platform focused on collaborative growth",
+      "pt-BR": "Plataforma de crédito e pagamento focada no crescimento colaborativo"
+    }
+  },
+  {
+    "title": {
+      "en-US": "TNP - Todos nós podemos",
+      "pt-BR": "TNP - Todos nós podemos"
+    },
+    "type": "web",
+    "date": "2024",
+    "external_link": "https://app.todosnospodemos.com.br",
+    "banner": "/projects/tnp.png",
+    "skills": ["next", "react", "javascript", "typescript", "mysql"],
+    "description": {
+      "en-US": "Credit and payment platform focused on collaborative growth",
+      "pt-BR": "Plataforma de crédito e pagamento focada no crescimento colaborativo"
     }
   }
 ]

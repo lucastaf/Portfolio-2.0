@@ -7,7 +7,7 @@ export type experienceType = "job" | "education"
 export type experience = {
     title: string;
     type: string;
-    location: string;
+    location: string | null;
     started_at: string;
     ended_at: string | null;
     logo: string;

@@ -1,7 +1,226 @@
-[{
+[
+  {
     "name": "Typescript",
     "id": "typescript",
     "type": "language",
     "logo": "icons/languages/typescript/typescript-original.svg",
-    "bg_color": "#007ACC"
-}]
+    "bg_color": "#007ACC4D"
+  },
+  {
+    "name": "Javascript",
+    "id": "javascript",
+    "type": "language",
+    "logo": "icons/languages/javascript/javascript-original.svg",
+    "bg_color": "#EFD81D4D"
+  },
+  {
+    "name": "HTML",
+    "id": "html",
+    "type": "language",
+    "logo": "icons/languages/html5/html5-original.svg",
+    "bg_color": "#E962284D"
+  },
+  {
+    "name": "CSS",
+    "id": "css",
+    "type": "language",
+    "logo": "icons/languages/css3/css3-original.svg",
+    "bg_color": "#31A4D54D"
+  },
+  {
+    "name": "Python",
+    "id": "python",
+    "type": "language",
+    "logo": "icons/languages/python/python-original.svg",
+    "bg_color": "#F7CB404D"
+  },
+  {
+    "name": "Java",
+    "id": "java",
+    "type": "language",
+    "logo": "icons/languages/java/java-original.svg",
+    "bg_color": "#507E9C4D"
+  },
+  {
+    "name": "C#",
+    "id": "csharp",
+    "type": "language",
+    "logo": "icons/languages/csharp/csharp-original.svg",
+    "bg_color": "#974D924D"
+  },
+  {
+    "name": "C++",
+    "id": "cpp",
+    "type": "language",
+    "logo": "icons/languages/cplusplus/cplusplus-original.svg",
+    "bg_color": "#6295CB4D"
+  },
+  {
+    "name": "Visual Basic",
+    "id": "vba",
+    "type": "language",
+    "logo": "icons/languages/visualbasic/visualbasic-original.svg",
+    "bg_color": "#007ACC4D"
+  },
+  {
+    "name": "NodeJS",
+    "id": "node",
+    "type": "backend",
+    "logo": "icons/tools/nodejs/nodejs-original.svg",
+    "bg_color": "#5099417F"
+  },
+  {
+    "name": "Express",
+    "id": "express",
+    "type": "backend",
+    "logo": "icons/frameworks/express/express-original.svg",
+    "bg_color": "#FEFFFF7F"
+  },
+  {
+    "name": "NestJS",
+    "id": "nest",
+    "type": "backend",
+    "logo": "icons/frameworks/nestjs/nestjs-original.svg",
+    "bg_color": "#D9224C4D"
+  },
+  {
+    "name": "Prisma",
+    "id": "prisma",
+    "type": "backend",
+    "logo": "icons/frameworks/prisma/prisma-original.svg",
+    "bg_color": "#03334C4D"
+  },
+  {
+    "name": "MySQL",
+    "id": "mysql",
+    "type": "backend",
+    "logo": "icons/infraestructure/mysql/mysql-original.svg",
+    "bg_color": "#005D884D"
+  },
+  {
+    "name": "PostgreSQL",
+    "id": "postgresql",
+    "type": "backend",
+    "logo": "icons/infraestructure/postgresql/postgresql-original.svg",
+    "bg_color": "#31648C4D"
+  },
+  {
+    "name": "RabbitMQ",
+    "id": "rabbitmq",
+    "type": "backend",
+    "logo": "icons/infraestructure/rabbitmq/rabbitmq-original.svg",
+    "bg_color": "#EA64214D"
+  },
+  {
+    "name": "AWS",
+    "id": "aws",
+    "type": "backend",
+    "logo": "icons/infraestructure/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    "bg_color": "#EB962F9E"
+  },
+  {
+    "name": "Linux",
+    "id": "linux",
+    "type": "backend",
+    "logo": "icons/infraestructure/linux/linux-original.svg",
+    "bg_color": "#EBB8214D"
+  },
+  {
+    "name": "Docker",
+    "id": "docker",
+    "type": "backend",
+    "logo": "icons/infraestructure/docker/docker-original.svg",
+    "bg_color": "#2391E64D"
+  },
+  {
+    "name": "Github Actions",
+    "id": "githubactions",
+    "type": "backend",
+    "logo": "icons/tools/githubactions/githubactions-original.svg",
+    "bg_color": "#1F84F74D"
+  },
+  {
+    "name": "React",
+    "id": "react",
+    "type": "frontend",
+    "logo": "icons/frameworks/react/react-original.svg",
+    "bg_color": "#5ED3F34D"
+  },
+  {
+    "name": "NextJS",
+    "id": "next",
+    "type": "frontend",
+    "logo": "icons/frameworks/nextjs/nextjs-original.svg",
+    "bg_color": "#6B6B6B4D"
+  },
+  {
+    "name": "Vite",
+    "id": "vite",
+    "type": "frontend",
+    "logo": "icons/frameworks/vite/logo.svg",
+    "bg_color": "#9959F64D"
+  },
+  {
+    "name": "Tailwind",
+    "id": "tailwind",
+    "type": "frontend",
+    "logo": "icons/frameworks/tailwindcss/tailwindcss-original.svg",
+    "bg_color": "#36B7F04D"
+  },
+  {
+    "name": "Git",
+    "id": "git",
+    "type": "other",
+    "logo": "icons/tools/git/git-original.svg",
+    "bg_color": "#E84D314D"
+  },
+  {
+    "name": "Github",
+    "id": "github",
+    "type": "other",
+    "logo": "icons/tools/github/github-original.svg",
+    "bg_color": "#595F6488"
+  },
+  {
+    "name": "Excel",
+    "id": "excel",
+    "type": "other",
+    "logo": "icons/tools/microsoftexcel.svg",
+    "bg_color": "#0F783F4D"
+  },
+  {
+    "name": "N8N",
+    "id": "n8n",
+    "type": "other",
+    "logo": "icons/tools/n8n.svg",
+    "bg_color": "#E3496D4D"
+  },
+  {
+    "name": "Jira",
+    "id": "jira",
+    "type": "other",
+    "logo": "icons/tools/jira/jira-original.svg",
+    "bg_color": "#2580F74D"
+  },
+  {
+    "name": "Trello",
+    "id": "trello",
+    "type": "other",
+    "logo": "icons/tools/trello/trello-original.svg",
+    "bg_color": "#0075B94D"
+  },
+  {
+    "name": "Unity",
+    "id": "unity",
+    "type": "other",
+    "logo": "icons/tools/unity/unity-original.svg",
+    "bg_color": "#7C7C7C4D "
+  },
+  {
+    "name": "Godot",
+    "id": "godot",
+    "type": "other",
+    "logo": "icons/tools/godot/godot-original.svg",
+    "bg_color": "#478CBF7A"
+  }
+]

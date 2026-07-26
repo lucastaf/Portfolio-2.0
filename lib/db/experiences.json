@@ -5,7 +5,25 @@
     "started_at": "03-01-2025",
     "ended_at": null,
     "type": "job",
-    "skills": ["typescript"],
+    "skills": [
+      "typescript",
+      "python",
+      "express",
+      "nest",
+      "prisma",
+      "react",
+      "tailwind",
+      "mysql",
+      "postgresql",
+      "rabbitmq",
+      "aws",
+      "linux",
+      "docker",
+      "githubactions",
+      "n8n",
+      "jira",
+      "github"
+    ],
     "logo": "/icons/companies/Logo_SP_Texto.svg",
     "role_description": {
       "en-US": "Mid-level Fullstack Developer",
@@ -43,6 +61,142 @@
       {
         "en-US": "Implemented messaging, automation, and observability USing RabbitMQ, N8N, and Grafana LGTM.",
         "pt-BR": "Implementou mensageria, automação e observabilidade utilizando RabbitMQ, N8N e Grafana LGTM."
+      }
+    ]
+  },
+  {
+    "title": "TNP - Todos nos podemos",
+    "location": null,
+    "started_at": "01-01-2024",
+    "ended_at": "10-01-2024",
+    "type": "job",
+    "skills": [
+      "next",
+      "react",
+      "github",
+      "trello",
+      "javascript",
+      "typescript",
+      "mysql"
+    ],
+    "logo": "/icons/companies/logo-tnp.svg",
+    "role_description": {
+      "en-US": "Mid-level Frontend Developer",
+      "pt-BR": "Desenvolvedor Frontend Pleno"
+    },
+    "achievements": [
+      {
+        "en-US": "Developed the frontend of a marketplace platform using Next.js, React, and JavaScript / TypeScript.",
+        "pt-BR": "Desenvolveu o frontend de uma plataforma de marketplace utilizando Next JS, React e Javascript / Typescript."
+      },
+      {
+        "en-US": "Contributed to the marketplace platform ideation process with the team.",
+        "pt-BR": "Participou na ideação da plataforma de marketplace junto a equipe."
+      },
+      {
+        "en-US": "Contributed to backend development using PHP and MySQL.",
+        "pt-BR": "Participou do desenvolvimento backend em PHP e MySQL."
+      }
+    ]
+  },
+  {
+    "title": "Clinica CBM",
+    "location": "Tijucas-SC",
+    "started_at": "12-01-2022",
+    "ended_at": "01-01-2024",
+    "type": "job",
+    "skills": ["python", "excel", "vba"],
+    "logo": "/icons/companies/logo-cbm.jpg",
+    "role_description": {
+      "en-US": "Receptionist / VBA Developer",
+      "pt-BR": "Atendente / Desenvolvedor VBA"
+    },
+    "achievements": [
+      {
+        "en-US": "Provided customer service.",
+        "pt-BR": "Atendimento ao cliente."
+      },
+      {
+        "en-US": "Planned and developed scripts in Excel (VBA) and Google Sheets (Apps Script) to automate controls and workflows.",
+        "pt-BR": "Planejou e desenvolveu scripts em excel (VBA) e google sheets (APP SCRIPT) para automatizar o controle e o serviço."
+      },
+      {
+        "en-US": "Created automations that reduced the effort required for personal tasks and coworkers’ workflows.",
+        "pt-BR": "Criou automações que diminuiu o esforço necessário no próprio serviço, e no serviço colegas de trabalho."
+      }
+    ]
+  },
+  {
+    "title": "Univali",
+    "location": "Itajai-SC",
+    "started_at": "01-01-2023",
+    "ended_at": null,
+    "type": "education",
+    "skills": ["cpp", "java", "csharp", "mysql"],
+    "logo": "/icons/companies/logo-univali.png",
+    "role_description": {
+      "en-US": "Bachelor’s Degree in Computer Science",
+      "pt-BR": "Bacharelado em Ciências da Computação "
+    },
+    "achievements": [
+      {
+        "en-US": "Data Structures",
+        "pt-BR": "Estrutura de dados"
+      },
+      {
+        "en-US": "Programming Algorithms",
+        "pt-BR": "Algoritmos de programação"
+      },
+      {
+        "en-US": "Software Engineering",
+        "pt-BR": "Engenharia de software"
+      },
+      {
+        "en-US": "Databases",
+        "pt-BR": "Banco de dados"
+      },
+      {
+        "en-US": "Operational systems",
+        "pt-BR": "Sistemas operacionais"
+      },
+      {
+        "en-US": "Networks",
+        "pt-BR": "Redes"
+      }
+    ]
+  },
+  {
+    "title": "Alura",
+    "location": null,
+    "started_at": "12-01-2024",
+    "ended_at": null,
+    "type": "education",
+    "skills": ["typescript", "mysql"],
+    "logo": "/icons/companies/logo-alura.png",
+    "role_description": {
+      "en-US": "Programming Courses",
+      "pt-BR": "Curso de programação"
+    },
+    "achievements": [
+      {
+        "en-US": "TypeScript Development",
+        "pt-BR": "Desenvolvimento em typescript"
+      },
+      {
+        "en-US": "Cloud Engineering",
+        "pt-BR": "Cloud Engineering"
+      },
+      {
+        "en-US": "DevOps",
+        "pt-BR": "DevOps"
+      },
+      {
+        "en-US": "UX Design",
+        "pt-BR": "UX Design"
+      },
+      {
+        "en-US": "Technical Writing",
+        "pt-BR": "Technical Writing"
       }
     ]
   }

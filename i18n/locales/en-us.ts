@@ -21,6 +21,9 @@ const exportObject = {
             projects: "Projetos",
             web: "WEB",
             games: "Jogos"
+        },
+        misc: {
+            remote: "remote"
         }
     }
 };

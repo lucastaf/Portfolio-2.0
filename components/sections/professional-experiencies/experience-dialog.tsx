@@ -1,15 +1,14 @@
-import { Badge } from "@/components/ui/badge";
 import {
   Dialog,
   DialogContent,
-  DialogHeader,
-  DialogTitle,
+  DialogHeader
 } from "@/components/ui/dialog";
-import Image from "next/image";
-import SkillBadge from "../skill-badge";
 import { experience } from "@/lib/db/db-types";
-import { useMemo } from "react";
 import { formatDateMonthYear } from "@/lib/format-date";
+import Image from "next/image";
+import { useMemo } from "react";
+import { useTranslation } from "react-i18next";
+import SkillBadge from "../skill-badge";
 
 export default function ExperienceDialog(props: {
   open: boolean;
@@ -18,6 +17,7 @@ export default function ExperienceDialog(props: {
 }) {
   const { onOpenChange, open, experience } = props;
 
+  const {t} = useTranslation();
   const formattedDates = useMemo(() => {
     const startDate = formatDateMonthYear(experience.started_at)!;
     const endDate = formatDateMonthYear(experience.ended_at);
@@ -38,7 +38,7 @@ export default function ExperienceDialog(props: {
             <div>
               <h1 className="text-3xl">{experience.title}</h1>
               <h2>
-                {experience.location}, {formattedDates.started_at} -{" "}
+                {experience.location ?? t("misc.remote")}, {formattedDates.started_at} -{" "}
                 {formattedDates.ended_at}
               </h2>
               <h2 className="mt-2">{experience.role_description["pt-BR"]}</h2>
