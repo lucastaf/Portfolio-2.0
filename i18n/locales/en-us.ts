@@ -1,29 +1,30 @@
 const exportObject = {
     translations: {
         header: {
-            title: "Desenvolvimento Fullstack do frontend à infraestrutura.",
-            body: "Há mais de 2 anos desenvolvendo soluções utilizando TypeScript, Node.js e React. Projeto arquiteturas escaláveis, APIs robustas e interfaces modernas, cuidando de todo o ciclo da aplicação.",
-            curriculum_download: "Baixe meu curriculo"
+            title: "Full-stack development, from frontend to infrastructure.",
+            body: "I have been developing solutions using TypeScript, Node.js, and React for over two years. I design scalable architectures, robust APIs, and modern interfaces, managing the entire application lifecycle.",
+            curriculum_download: "Get my resume"
         },
         sidebar: {
-            projects: "Projetos",
-            experiences: "Experiências\nProfissionais",
-            skills: "Tecnologias\nutilizadas"
+            projects: "Projects",
+            experiences: "Professional\nExperiences",
+            skills: "Used\nTechnologies"
         },
         sections: {
-            skills: "Tecnologias utilizadas",
+            skills: "Used Technologies",
             backend: "Backend",
             frontend: "Frontend",
-            programming_languages: "Linguagens de programação",
-            others: "Outros",
-            professional_experiences: "Experiências profissionais",
-            academic_background: "Formação academica",
-            projects: "Projetos",
+            programming_languages: "Programming languages",
+            others: "Others",
+            professional_experiences: "Professional Experiences",
+            academic_background: "Academic Background",
+            projects: "Projects",
             web: "WEB",
-            games: "Jogos"
+            games: "Games"
         },
         misc: {
-            remote: "remote"
+            remote: "Remote",
+            present: "Present"
         }
     }
 };

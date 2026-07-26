@@ -1,12 +1,14 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { languages, project } from "@/lib/db/db-types";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 import SkillBadge from "../skill-badge";
-import { project } from "@/lib/db/db-types";
 
 export default function ProjectCard(props: { project: project }) {
   const { project } = props;
+  const { i18n } = useTranslation();
   return (
     <Card>
       <CardContent className="flex flex-col justify-between h-full">
@@ -27,7 +29,7 @@ export default function ProjectCard(props: { project: project }) {
           />
           <div className="my-2">
             <h1 className="text-xl flex gap-2">
-              {project.title["pt-BR"]}
+              {project.title[i18n.language as languages]}
               {project.external_link && (
                 <Link href={project.external_link}>
                   {" "}
@@ -37,7 +39,7 @@ export default function ProjectCard(props: { project: project }) {
             </h1>
             <h1 className="text-xs">{project.date}</h1>
           </div>
-          <p>{project.description["pt-BR"]}</p>
+          <p>{project.description[i18n.language as languages]}</p>
         </div>
         <div className="flex gap-2 mt-4">
           {project.skills.map((skill, index) => (

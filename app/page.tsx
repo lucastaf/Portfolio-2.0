@@ -6,6 +6,7 @@ import { ChevronDown } from "lucide-react";
 import ProfessionalExperiences from "@/components/sections/professional-experiencies/professional-experiences";
 import Projects from "@/components/sections/projects/projects";
 import "../i18n";
+import AppBar from "@/components/layout/appbar";
 
 export default function Home() {
   return (
@@ -18,9 +19,9 @@ export default function Home() {
         <ChevronDown className="absolute bottom-8 left-1/2 -translate-x-1/2" />
       </div>
       <Skills />
-      <div className="my-16"/>
+      <div className="my-16" />
       <ProfessionalExperiences />
-      <div className="my-16"/>
+      <div className="my-16" />
       <Projects />
     </div>
   );

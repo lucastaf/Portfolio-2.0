@@ -24,7 +24,9 @@ export default function SideBar() {
 
       <Button className="grid grid-cols-[auto_1fr_auto] items-center h-30 text-2xl px-4">
         <Monitor className="size-8" />
-        <span className="text-center whitespace-pre-line">{t("sidebar.projects")}</span>
+        <span className="text-center whitespace-pre-line">
+          {t("sidebar.projects")}
+        </span>
         <div className="size-8 invisible" />
       </Button>
     </div>

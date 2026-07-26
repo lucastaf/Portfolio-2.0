@@ -23,7 +23,8 @@ const exportObject = {
             games: "Jogos"
         },
         misc: {
-            remote: "remoto"
+            remote: "Remoto",
+            present: "Presente"
         }
     }
 };

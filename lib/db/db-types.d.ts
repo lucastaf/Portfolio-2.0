@@ -1,3 +1,4 @@
+export type languages = "en-US" | "pt-BR"
 export type multiLanguageText = {
     "en-US": string;
     "pt-BR": string;
