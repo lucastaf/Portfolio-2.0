@@ -26,7 +26,12 @@ export default function Home() {
               projectsRef={projectsRef}
             />
           </div>
-          <ChevronDown className="absolute bottom-8 left-1/2 -translate-x-1/2" />
+          <ChevronDown
+            onClick={() =>
+              skillsRef.current?.scrollIntoView({ behavior: "smooth" })
+            }
+            className="absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer"
+          />
         </div>
         <Skills ref={skillsRef} />
         <div className="my-16" />
