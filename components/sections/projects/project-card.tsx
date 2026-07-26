@@ -22,10 +22,12 @@ export default function ProjectCard(props: { project: project }) {
         <div className="my-2">
           <h1 className="text-xl flex gap-2">
             {project.title["pt-BR"]}
-            <Link href={project.external_link}>
-              {" "}
-              <ExternalLink />
-            </Link>
+            {project.external_link && (
+              <Link href={project.external_link}>
+                {" "}
+                <ExternalLink />
+              </Link>
+            )}
           </h1>
           <h1 className="text-xs">{project.date}</h1>
         </div>

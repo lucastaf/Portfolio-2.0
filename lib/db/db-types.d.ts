@@ -30,7 +30,7 @@ export type project = {
     title: multiLanguageText;
     date: string;
     type: string;
-    external_link: string;
+    external_link?: string;
     banner: string;
     skills: string[]
     description: multiLanguageText;

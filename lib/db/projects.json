@@ -55,26 +55,147 @@
     "type": "web",
     "date": "2026",
     "external_link": "https://github.com/caiorosa-dev/student-id-app",
-    "banner": "/projects/tnp.png",
-    "skills": ["next", "react", "javascript", "typescript", "mysql"],
+    "banner": "/projects/id-estudante.png",
+    "skills": ["next", "typescript", "react", "postgresql"],
     "description": {
-      "en-US": "Credit and payment platform focused on collaborative growth",
-      "pt-BR": "Plataforma de crédito e pagamento focada no crescimento colaborativo"
+      "en-US": "Platform for school bus ID card and boarding management",
+      "pt-BR": "Plataforma para gerenciamento de carteirinha e embarque em ônibus escolar"
     }
   },
   {
     "title": {
-      "en-US": "TNP - Todos nós podemos",
-      "pt-BR": "TNP - Todos nós podemos"
+      "en-US": "PetBook",
+      "pt-BR": "PetBook"
     },
     "type": "web",
-    "date": "2024",
-    "external_link": "https://app.todosnospodemos.com.br",
-    "banner": "/projects/tnp.png",
-    "skills": ["next", "react", "javascript", "typescript", "mysql"],
+    "date": "2025",
+    "external_link": "https://github.com/caiorosa-dev/pet-book",
+    "banner": "/projects/pet-book.png",
+    "skills": ["next", "typescript", "react", "postgresql"],
     "description": {
-      "en-US": "Credit and payment platform focused on collaborative growth",
-      "pt-BR": "Plataforma de crédito e pagamento focada no crescimento colaborativo"
+      "en-US": "Social network platform for helping people that lost or found pets",
+      "pt-BR": "Rede social para ajudar pessoal que perderam ou encontraram pets perdidos"
+    }
+  },
+
+  {
+    "title": {
+      "en-US": "Desventuras de um carimbo",
+      "pt-BR": "Desventuras de um carimbo"
+    },
+    "type": "game",
+    "date": "2026",
+    "external_link": "https://gato-mensageiro.itch.io/desventuras-de-um-carimbo",
+    "banner": "/projects/desventuras-de-um-carimbo.png",
+    "skills": ["godot", "csharp"],
+    "description": {
+      "en-US": "A 2D puzzle game where the player uses magical stamps to create, explode, and energize the environment—moving boxes, activating mechanisms, and opening paths through wit and curiosity. Explore, experiment, and transform the world around you in every new room.",
+      "pt-BR": "Jogo 2D de puzzle que o jogador usa carimbos mágicos para criar, explodir e energizar o cenário, movendo caixas, ativando mecanismos e abrindo caminhos com inteligência e curiosidade. Explore, experimente e transforme o ambiente ao seu redor a cada nova sala."
+    }
+  },
+  {
+    "title": {
+      "en-US": "Ashen ember",
+      "pt-BR": "Ashen ember"
+    },
+    "type": "game",
+    "date": "2025",
+    "external_link": "https://gato-mensageiro.itch.io/ashen-ember",
+    "banner": "/projects/ashen-ember.png",
+    "skills": ["unity", "csharp"],
+    "description": {
+      "en-US": "A game created for Cross World Game Jam 2025, based on the theme “Bridge”,  By Gato Mensageiro.",
+      "pt-BR": "Um jogo criado para a Cross World Game Jam 2025, com base no tema “Ponte“, por Gato Mensageiro."
+    }
+  },
+  {
+    "title": {
+      "en-US": "Syntax Rebellion",
+      "pt-BR": "Syntax Rebellion"
+    },
+    "type": "game",
+    "date": "2025",
+    "external_link": null,
+    "banner": "/projects/syntax-rebellion.png",
+    "skills": ["unity", "csharp"],
+    "description": {
+      "en-US": "A game about programming and hacking currently in development. It features a custom programming language developed exclusively to solve the puzzles within the game.",
+      "pt-BR": "Um jogo em desenvolvimento sobre programação e hacking. Consta com um linguagem de programação própria desenvolvida exclusivamente para resolver os puzzles presentes no jogo."
+    }
+  },
+  {
+    "title": {
+      "en-US": "Alien chaos",
+      "pt-BR": "Alien chaos"
+    },
+    "type": "game",
+    "date": "2024",
+    "external_link": "https://gato-mensageiro.itch.io/alien-chaos",
+    "banner": "/projects/alien-chaos.png",
+    "skills": ["unity", "csharp"],
+    "description": {
+      "en-US": "Alien Chaos is an intense 2D Space Shooter where players must defend their planets from relentless waves of enemies, each more chaotic than the last. As alien forces swarm the galaxy, it's up to you to harness your skills, upgrade your ship, and unleash devastating firepower. Fight through increasingly challenging levels, facing massive enemy fleets determined to overrun your world.",
+      "pt-BR": "Alien Chaos é um intenso jogo de tiro espacial em 2D, no qual os jogadores devem defender seus planetas de ondas implacáveis ​​de inimigos — cada uma mais caótica que a anterior. Enquanto forças alienígenas invadem a galáxia, cabe a você utilizar suas habilidades, aprimorar sua nave e liberar um poder de fogo devastador. Lute através de níveis cada vez mais desafiadores, enfrentando enormes frotas inimigas determinadas a dominar o seu mundo."
+    }
+  },
+  {
+    "title": {
+      "en-US": "Antlr Compiler",
+      "pt-BR": "Antlr Compiler"
+    },
+    "type": "other",
+    "date": "2026",
+    "external_link": "https://github.com/lucastaf/antlr-compiler",
+    "banner": "/projects/antlr-compiller.png",
+    "skills": ["typescript", "react"],
+    "description": {
+      "en-US": "A compiler based on JavaScript syntax. It was built using ANTLR and TypeScript, targeting assembly for the BIP processor.",
+      "pt-BR": "Compilador feito baseado na sintaxe do javascript. O compilador foi feito utilizando antlr e typescript, target para assembly do processador BIP."
+    }
+  },
+  {
+    "title": {
+      "en-US": "Raycast Python",
+      "pt-BR": "Raycast Python"
+    },
+    "type": "other",
+    "date": "2023",
+    "external_link": "https://github.com/lucastaf/Raycast-Python",
+    "banner": "/projects/PythonRaycaster.png",
+    "skills": ["python"],
+    "description": {
+      "en-US": "An raycast engine made using python and pygame.",
+      "pt-BR": "Uma engine de raycast feita utilizando python e pygame."
+    }
+  },
+  {
+    "title": {
+      "en-US": "Tetris C",
+      "pt-BR": "Tetris C"
+    },
+    "type": "other",
+    "date": "2023",
+    "external_link": "https://github.com/lucastaf/Tetris_C",
+    "banner": "/projects/TetrisC.png",
+    "skills": ["cpp"],
+    "description": {
+      "en-US": "A Tetris clone written in pure C using the raylib library.",
+      "pt-BR": "Um clone do jogo tetris feito em C puro, utilizando a biblioteca raylib."
+    }
+  },
+  {
+    "title": {
+      "en-US": "Clothing Store C++",
+      "pt-BR": "Loja Vestuário C++"
+    },
+    "type": "other",
+    "date": "2024",
+    "external_link": "https://github.com/lucastaf/Trabalho-loja-vestuario-cpp",
+    "banner": "/projects/LojaVestuario.png",
+    "skills": ["cpp"],
+    "description": {
+      "en-US": "An inventory management system built using C++ and the .NET Framework; the system utilizes a linked list library created from scratch in C++.",
+      "pt-BR": "Um sistema de gestão de estoque feito em C++ e .net framework, o sistema foi feito utilizando uma lib de listas encadeadas criadas do zero em C++"
     }
   }
 ]
