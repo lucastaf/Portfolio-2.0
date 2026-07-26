@@ -34,7 +34,7 @@ export default function ExperienceDialog(props: {
         <DialogHeader></DialogHeader>
         <div>
           <div className="flex">
-            <Image src={experience.logo} alt="logo" width={150} height={150} />
+            <Image className="mb-4 mr-4 rounded-xl" src={experience.logo} alt="logo" width={150} height={150} />
             <div>
               <h1 className="text-3xl">{experience.title}</h1>
               <h2>
@@ -44,7 +44,7 @@ export default function ExperienceDialog(props: {
               <h2 className="mt-2">{experience.role_description["pt-BR"]}</h2>
             </div>
           </div>
-          <div className="flex gap-2 mb-2 ml-2">
+          <div className="flex gap-2 mb-4 ml-2">
             {" "}
             {experience.skills.map((skill, index) => (
               <SkillBadge skill={skill} key={index} />

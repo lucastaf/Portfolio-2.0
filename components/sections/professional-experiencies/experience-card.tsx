@@ -48,7 +48,7 @@ export default function ExperienceCard(props: { experience: experience }) {
           x: 0,
         }}
       >
-        <Image src={experience.logo} alt="logo" width={150} height={150} />
+        <Image src={experience.logo} className="mr-4 rounded-xl" alt="logo" width={150} height={150} />
         <div>
           <h1 className="text-3xl">{experience.title}</h1>
           <h2>
