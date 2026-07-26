@@ -1,9 +1,11 @@
-'use client';
+"use client";
 
 import Image from "next/image";
 import { motion } from "motion/react";
+import { skill } from "@/lib/db/db-types";
 
-export default function SkillCard() {
+export default function SkillCard(props: { skill: skill }) {
+  const { skill } = props;
   return (
     <motion.div
       className="border-2 p-4 flex items-center gap-4 rounded-xl"
@@ -19,15 +21,10 @@ export default function SkillCard() {
         x: 0,
       }}
     >
-      <div className="p-2 bg-[#007ACC]/30 rounded-lg">
-        <Image
-          src={"icons/languages/typescript/typescript-original.svg"}
-          width={30}
-          height={30}
-          alt="logo"
-        />
+      <div className={`p-2 bg-[${skill.bg_color}]/30 rounded-lg`}>
+        <Image src={skill.logo} width={30} height={30} alt="logo" />
       </div>
-      <h1 className="text-xl">Typescript</h1>
+      <h1 className="text-xl">{skill.name}</h1>
     </motion.div>
   );
 }

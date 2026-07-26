@@ -1,0 +1,49 @@
+[
+  {
+    "title": "SP Capital",
+    "location": "Itapema-SC",
+    "started_at": "03-01-2025",
+    "ended_at": null,
+    "type": "job",
+    "skills": ["typescript"],
+    "logo": "/icons/companies/Logo_SP_Texto.svg",
+    "role_description": {
+      "en-us": "Mid-level Fullstack Developer",
+      "pt-br": "Desenvolvedor Fullstack Pleno"
+    },
+    "achievements": [
+      {
+        "en-us": "Developed and maintained a CRM/ERP platform used by 20 internal users, covering frontend, backend, and external integrations.",
+        "pt-br": "Desenvolveu e manteve uma plataforma CRM/ERP utilizada por 20 usuários internos, cobrindo frontend, backend e integrações externas"
+      },
+      {
+        "en-us": "Implemented APIs in Node.js and Python for customer management, contracts, authentication, and data flow.",
+        "pt-br": "Implementou APIs em Node.js e Python para gerenciamento de clientes, contratos, autenticação e fluxo de dados."
+      },
+      {
+        "en-us": "Designed and developed business features, including user management, permissions, documents, and operation history.",
+        "pt-br": "Projetou e desenvolveu funcionalidades de negócio, incluindo gestão de usuários, permissões, documentos e histórico de operações."
+      },
+      {
+        "en-us": "Contributed to technical planning and platform architecture definition, including data modeling and application flows.",
+        "pt-br": "Atuou no planejamento técnico e definição da arquitetura da plataforma, participando da modelagem de dados e fluxos de aplicação"
+      },
+      {
+        "en-us": "Developed a React web frontend for API consumption and end-user system operations.",
+        "pt-br": " Desenvolveu frontend web em React para consumo das APIs e operação do sistema pelos usuários finais."
+      },
+      {
+        "en-us": "Deployed separate development and production environments, ensuring isolation and stability.",
+        "pt-br": "Implantou ambientes separados de desenvolvimento e produção, garantindo isolamento e estabilidade."
+      },
+      {
+        "en-us": "Architected and maintained the application’s cloud infrastructure on AWS, with APIs on ECS, database on RDS, and frontend on S3 + CloudFront.",
+        "pt-br": "Arquitetou e manteve a infraestrutura cloud da aplicação na AWS, com APIs em ECS, banco de dados em RDS e frontend em S3 + CloudFront."
+      },
+      {
+        "en-us": "Implemented messaging, automation, and observability using RabbitMQ, N8N, and Grafana LGTM.",
+        "pt-br": "Implementou mensageria, automação e observabilidade utilizando RabbitMQ, N8N e Grafana LGTM."
+      }
+    ]
+  }
+]

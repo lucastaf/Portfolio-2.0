@@ -2,14 +2,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import SkillBadge from "../professional-experiencies/skill-badge";
+import SkillBadge from "../skill-badge";
+import { project } from "@/lib/db/db-types";
 
-export default function ProjectCard() {
+export default function ProjectCard(props: { project: project }) {
+  const { project } = props;
   return (
     <Card>
       <CardContent>
         <Image
-          src="/projects/plataforma-sp-capital.png"
+          src={project.banner}
           alt="demo"
           width={0}
           height={0}
@@ -19,22 +21,19 @@ export default function ProjectCard() {
         />
         <div className="my-2">
           <h1 className="text-xl flex gap-2">
-            Plataforma SP Capital{" "}
-            <Link href={"https://plataforma.spcapital.com.br"}>
+            {project.title["pt-br"]}
+            <Link href={project.external_link}>
               {" "}
               <ExternalLink />
             </Link>
           </h1>
-          <h1 className="text-xs">2025</h1>
+          <h1 className="text-xs">{project.date}</h1>
         </div>
-        <p>
-          Plataforma interna utilizada pela empresa SP Capital para gestão de
-          leads
-        </p>
+        <p>{project.description["pt-br"]}</p>
         <div className="flex gap-2 mt-4">
-          <SkillBadge />
-          <SkillBadge />
-          <SkillBadge />
+          {project.skills.map((skill, index) => (
+            <SkillBadge key={index} skill={skill} />
+          ))}
         </div>
       </CardContent>
     </Card>
