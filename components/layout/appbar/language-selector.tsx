@@ -5,7 +5,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "../ui/select";
+} from "../../ui/select";
 import { useTranslation } from "react-i18next";
 
 export default function LanguageSelector() {
@@ -19,9 +19,8 @@ export default function LanguageSelector() {
     <Select value={i18n.language} onValueChange={handleChangeLanguage}>
       <SelectTrigger>
         <Globe />
-        <SelectValue />
       </SelectTrigger>
-      <SelectContent>
+      <SelectContent alignItemWithTrigger={false} align="end">
         <SelectItem value="pt-BR">Português</SelectItem>
         <SelectItem value="en-US">English</SelectItem>
       </SelectContent>

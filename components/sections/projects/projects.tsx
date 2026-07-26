@@ -1,11 +1,13 @@
+import { Code, Gamepad2, Monitor } from "lucide-react";
+import { Ref } from "react";
 import { useTranslation } from "react-i18next";
 import ProjectsList from "./projects-list";
-import { Code, Gamepad2, Joystick, Monitor } from "lucide-react";
 
-export default function Projects() {
+export default function Projects(props: { ref: Ref<HTMLDivElement> }) {
+  const { ref } = props;
   const { t } = useTranslation();
   return (
-    <div className="mt-32">
+    <div className="mt-32" ref={ref}>
       <h1 className="mb-4 ml-16 text-4xl">{t("sections.projects")}</h1>
       <div>
         <h1 className="ml-16 text-center text-2xl flex justify-center items-center gap-4 mb-4">
