@@ -53,7 +53,7 @@ export default function ExperienceCard(props: { experience: experience }) {
             {experience.location}, {formattedDates.started_at} -{" "}
             {formattedDates.ended_at}
           </h2>
-          <h2 className="mt-2">{experience.role_description["pt-br"]}</h2>
+          <h2 className="mt-2">{experience.role_description["pt-BR"]}</h2>
         </div>
       </motion.div>
     </>

@@ -1,17 +1,17 @@
 [
   {
     "title": {
-      "en-us": "SP Capital internal web platform",
-      "pt-br": "Plataforma interna da SP Capital"
+      "en-US": "SP Capital internal web platform",
+      "pt-BR": "Plataforma interna da SP Capital"
     },
     "type": "web",
     "date": "2025",
-    "external_link": "https://plataforma.spcapital.com.br",
+    "external_link": "https://plataforma.spcapital.com.BR",
     "banner": "/projects/plataforma-sp-capital.png",
     "skills": ["typescript"],
     "description": {
-      "en-us": "Internal platform used by SP Capital for managing leads",
-      "pt-br": "Plataforma interna utilizada pela empresa SP Capital para gestão de leads"
+      "en-US": "Internal platform USed by SP Capital for managing leads",
+      "pt-BR": "Plataforma interna utilizada pela empresa SP Capital para gestão de leads"
     }
   }
 ]

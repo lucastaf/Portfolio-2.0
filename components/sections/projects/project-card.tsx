@@ -21,7 +21,7 @@ export default function ProjectCard(props: { project: project }) {
         />
         <div className="my-2">
           <h1 className="text-xl flex gap-2">
-            {project.title["pt-br"]}
+            {project.title["pt-BR"]}
             <Link href={project.external_link}>
               {" "}
               <ExternalLink />
@@ -29,7 +29,7 @@ export default function ProjectCard(props: { project: project }) {
           </h1>
           <h1 className="text-xs">{project.date}</h1>
         </div>
-        <p>{project.description["pt-br"]}</p>
+        <p>{project.description["pt-BR"]}</p>
         <div className="flex gap-2 mt-4">
           {project.skills.map((skill, index) => (
             <SkillBadge key={index} skill={skill} />

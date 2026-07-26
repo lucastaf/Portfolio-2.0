@@ -1,6 +1,6 @@
 export type multiLanguageText = {
-    "en-us": string;
-    "pt-br": string;
+    "en-US": string;
+    "pt-BR": string;
 }
  
 export type experienceType = "job" | "education"

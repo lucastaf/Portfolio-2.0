@@ -41,7 +41,7 @@ export default function ExperienceDialog(props: {
                 {experience.location}, {formattedDates.started_at} -{" "}
                 {formattedDates.ended_at}
               </h2>
-              <h2 className="mt-2">{experience.role_description["pt-br"]}</h2>
+              <h2 className="mt-2">{experience.role_description["pt-BR"]}</h2>
             </div>
           </div>
           <div className="flex gap-2 mb-2 ml-2">
@@ -52,7 +52,7 @@ export default function ExperienceDialog(props: {
           </div>
           <ul className="text-sm">
             {experience.achievements.map((item, index) => (
-              <li key={index}>• {item["pt-br"]}</li>
+              <li key={index}>• {item["pt-BR"]}</li>
             ))}
           </ul>
         </div>

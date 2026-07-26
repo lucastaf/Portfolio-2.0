@@ -1,9 +1,11 @@
+"use client";
 import SideBar from "@/components/sidebar";
 import Header from "@/components/header";
 import Skills from "@/components/sections/skills/skills";
 import { ChevronDown } from "lucide-react";
 import ProfessionalExperiences from "@/components/sections/professional-experiencies/professional-experiences";
 import Projects from "@/components/sections/projects/projects";
+import "../i18n";
 
 export default function Home() {
   return (
