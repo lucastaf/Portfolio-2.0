@@ -3,6 +3,7 @@ import Header from "@/components/header";
 import Skills from "@/components/sections/skills/skills";
 import { ChevronDown } from "lucide-react";
 import ProfessionalExperiences from "@/components/sections/professional-experiencies/professional-experiences";
+import Projects from "@/components/sections/projects/projects";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <Skills />
       <div className="my-16"/>
       <ProfessionalExperiences />
+      <div className="my-16"/>
+      <Projects />
     </div>
   );
 }
