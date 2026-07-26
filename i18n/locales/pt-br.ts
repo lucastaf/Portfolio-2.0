@@ -18,13 +18,15 @@ const exportObject = {
             others: "Outros",
             professional_experiences: "Experiências profissionais",
             academic_background: "Formação academica",
-            projects: "Projetos",
-            web: "WEB",
+            projects: "Meus Projetos",
+            web: "Websites",
             games: "Jogos"
         },
         misc: {
             remote: "Remoto",
-            present: "Presente"
+            present: "Presente",
+            contact: "Contato",
+            social_media: "Redes Sociais"
         }
     }
 };

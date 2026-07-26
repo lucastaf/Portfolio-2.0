@@ -1,4 +1,5 @@
 "use client";
+import ContextMenu from "./context-menu";
 import LanguageSelector from "./language-selector";
 
 export default function AppBar() {
@@ -9,7 +10,10 @@ export default function AppBar() {
         hover:opacity-100 hover:backdrop-blur-none hover:bg-background rounded-lg transition-all"
       >
         Lucas Rauch
-        <LanguageSelector />
+        <div className="flex items-center gap-4">
+          <LanguageSelector />
+          <ContextMenu />
+        </div>
       </div>
     </div>
   );
