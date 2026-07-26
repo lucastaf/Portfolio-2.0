@@ -1,12 +1,11 @@
 import { Globe } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue,
 } from "../../ui/select";
-import { useTranslation } from "react-i18next";
 
 export default function LanguageSelector() {
   const { i18n } = useTranslation();
@@ -20,7 +19,11 @@ export default function LanguageSelector() {
       <SelectTrigger>
         <Globe />
       </SelectTrigger>
-      <SelectContent alignItemWithTrigger={false} align="end">
+      <SelectContent
+        className={"mt-1"}
+        alignItemWithTrigger={false}
+        align="end"
+      >
         <SelectItem value="pt-BR">Português</SelectItem>
         <SelectItem value="en-US">English</SelectItem>
       </SelectContent>

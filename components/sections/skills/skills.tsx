@@ -6,7 +6,7 @@ export default function Skills(props: { ref: Ref<HTMLDivElement> }) {
   const { ref } = props;
   const { t } = useTranslation();
   return (
-    <div ref={ref}>
+    <div ref={ref} className="scroll-mt-32">
       <h1 className="mb-4 ml-16 text-2xl">{t("sections.skills")}</h1>
       <h1 className="ml-16 text-xl mb-4">{t("sections.backend")}</h1>
       <div className="grid grid-cols-4 gap-8 mx-16">

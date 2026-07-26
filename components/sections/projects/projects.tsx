@@ -7,7 +7,7 @@ export default function Projects(props: { ref: Ref<HTMLDivElement> }) {
   const { ref } = props;
   const { t } = useTranslation();
   return (
-    <div className="mt-32" ref={ref}>
+    <div className="mt-32 scroll-mt-32" ref={ref}>
       <h1 className="mb-4 ml-16 text-4xl">{t("sections.projects")}</h1>
       <div>
         <h1 className="ml-16 text-center text-2xl flex justify-center items-center gap-4 mb-4">

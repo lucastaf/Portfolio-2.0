@@ -1,5 +1,7 @@
-import { Hamburger, Mail, MapPin, Menu, Phone } from "lucide-react";
-import { Button } from "../../ui/button";
+import { Mail, MapPin, Menu, Phone } from "lucide-react";
+import Link from "next/link";
+import { useTranslation } from "react-i18next";
+import { FaGithub, FaItchIo, FaLinkedin } from "react-icons/fa";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -9,17 +11,13 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "../../ui/dropdown-menu";
-import { LiaLinkedin } from "react-icons/lia";
-import { FaGithub, FaItchIo, FaLinkedin } from "react-icons/fa";
-import { useTranslation } from "react-i18next";
-import Link from "next/link";
 
 export default function ContextMenu() {
   const { t } = useTranslation();
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger render={<div />}>
+      <DropdownMenuTrigger render={<button />}>
         <Menu />
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-75 mt-2">

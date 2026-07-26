@@ -6,7 +6,7 @@ export default function ProfessionalExperiences(props: { ref: Ref<HTMLDivElement
   const { ref } = props;
   const { t } = useTranslation();
   return (
-    <div ref={ref}>
+    <div ref={ref} className="scroll-mt-32">
       <h1 className="mb-4 ml-16 text-2xl">
         {t("sections.professional_experiences")}
       </h1>
