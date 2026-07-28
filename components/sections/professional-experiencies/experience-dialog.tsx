@@ -30,7 +30,7 @@ export default function ExperienceDialog(props: {
         <DialogHeader />
         <div className="flex-1 overflow-y-auto">
           <div className="flex">
-            <div className="relative mr-4 mb-4 w-20 md:w-35 aspect-square">
+            <div className="relative mr-4 mb-4 w-20 md:w-35 shrink-0 aspect-square">
               <Image
                 className="rounded-xl"
                 src={experience.logo}

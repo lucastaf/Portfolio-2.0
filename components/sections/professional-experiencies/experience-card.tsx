@@ -47,15 +47,15 @@ export default function ExperienceCard(props: { experience: experience }) {
           x: 0,
         }}
       >
-        <div className="max-sm:flex-1 relative w-20 lg:w-35 aspect-square mr-4">
-          <Image
-            src={experience.logo}
-            alt="logo"
-            className="rounded-xl"
-            fill
-          />
+        <div className="relative max-lg:w-[30%] lg:w-35 shrink-0 aspect-square mr-4 rounded-xl">
+            <Image
+              src={experience.logo}
+              alt="logo"
+              className="rounded-xl"
+              fill
+            />
         </div>
-        <div>
+        <div className="max-lg:w-[70%] min-w-0">
           <h1 className="text-3xl">{experience.title}</h1>
           <h2>
             {experience.location ?? t("misc.remote")},{" "}
