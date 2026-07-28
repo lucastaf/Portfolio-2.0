@@ -12,23 +12,23 @@ export default function SideBar(props: {
   const { experiencesRef, projectsRef, skillsRef } = props;
   const { t } = useTranslation();
   return (
-    <div className="grid min-w-100 gap-16">
+    <div className="grid xl:grid-cols-1 grid-cols-3 xl:min-w-100 max-xl:w-full xl:gap-16 gap-2">
       <SideBarButton
         text={t("sidebar.skills")}
         refObject={skillsRef}
         initialDelay={0.5}
-        icon={<Code className="size-8" />}
+        icon={<Code className="xl:size-8 max-xl:hidden" />}
       />
       <SideBarButton
         text={t("sidebar.experiences")}
         refObject={experiencesRef}
-        icon={<Building2 className="size-8" />}
+        icon={<Building2 className="xl:size-8 max-xl:hidden" />}
         initialDelay={0.6}
       />
       <SideBarButton
         text={t("sidebar.projects")}
         refObject={projectsRef}
-        icon={<Monitor className="size-8" />}
+        icon={<Monitor className="xl:size-8 max-xl:hidden" />}
         initialDelay={0.7}
       />
     </div>
@@ -64,13 +64,13 @@ function SideBarButton(props: {
             behavior: "smooth",
           });
         }}
-        className="w-full grid grid-cols-[auto_1fr_auto] items-center h-30 text-2xl px-4 cursor-pointer"
+        className="w-full grid max-xl:grid-cols-1 xl:grid-cols-[auto_1fr_auto] items-center xl:h-30 h-15 xl:text-2xl px-4 cursor-pointer"
       >
         {icon}
-        <span className="text-center leading-tight whitespace-pre-line">
+        <span className="text-center xl:leading-tight whitespace-pre-line">
           {text}
         </span>
-        <div className="size-8 invisible" />
+        <div className="xl:size-8 xl:invisible hidden" />
       </Button>
     </motion.div>
   );

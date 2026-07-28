@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "motion/react";
 import { useMemo, useState } from "react";
 import ExperienceDialog from "./experience-dialog";
-import { experience, languages, multiLanguageText } from "@/lib/db/db-types";
+import { experience, languages } from "@/lib/db/db-types";
 import { formatDateMonthYear } from "@/lib/format-date";
 import { useTranslation } from "react-i18next";
 
@@ -31,7 +31,7 @@ export default function ExperienceCard(props: { experience: experience }) {
         experience={experience}
       />
       <motion.div
-        className="flex p-4 cursor-pointer"
+        className="flex cursor-pointer"
         onClick={() => {
           setDialogOpen(true);
         }}
@@ -47,20 +47,23 @@ export default function ExperienceCard(props: { experience: experience }) {
           x: 0,
         }}
       >
-        <Image
-          src={experience.logo}
-          className="mr-4 rounded-xl"
-          alt="logo"
-          width={150}
-          height={150}
-        />
+        <div className="max-sm:flex-1 relative w-20 lg:w-35 aspect-square mr-4">
+          <Image
+            src={experience.logo}
+            alt="logo"
+            className="rounded-xl"
+            fill
+          />
+        </div>
         <div>
           <h1 className="text-3xl">{experience.title}</h1>
           <h2>
             {experience.location ?? t("misc.remote")},{" "}
             {formattedDates.started_at} - {formattedDates.ended_at}
           </h2>
-          <h2 className="mt-2">{experience.role_description[(i18n.language as languages)]}</h2>
+          <h2 className="mt-2">
+            {experience.role_description[i18n.language as languages]}
+          </h2>
         </div>
       </motion.div>
     </>

@@ -6,7 +6,7 @@
     },
     "type": "web",
     "date": "2025",
-    "external_link": "https://plataforma.spcapital.com.BR",
+    "external_link": "https://spcapital.com.br/",
     "banner": "/projects/plataforma-sp-capital.png",
     "skills": [
       "typescript",
@@ -39,7 +39,7 @@
     },
     "type": "web",
     "date": "2024",
-    "external_link": "https://app.todosnospodemos.com.br",
+    "external_link": "https://tnpbusiness.com.br/",
     "banner": "/projects/tnp.png",
     "skills": ["next", "react", "javascript", "typescript", "mysql"],
     "description": {

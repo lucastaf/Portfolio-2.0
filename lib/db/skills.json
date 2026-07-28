@@ -210,6 +210,20 @@
     "bg_color": "#0075B94D"
   },
   {
+    "name": "Claude Code",
+    "id": "claude",
+    "type": "other",
+    "logo":"icons/tools/claude-code.svg",
+    "bg_color": "#D977574D"
+  },
+  {
+    "name": "ChatGPT",
+    "id": "gpt",
+    "type": "other",
+    "logo":"icons/tools/openai.svg",
+    "bg_color": "#FFFFFF97"
+  },
+  {
     "name": "Unity",
     "id": "unity",
     "type": "other",

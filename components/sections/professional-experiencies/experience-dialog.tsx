@@ -26,17 +26,18 @@ export default function ExperienceDialog(props: {
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className={"min-w-1/2"}>
-        <DialogHeader></DialogHeader>
-        <div>
+      <DialogContent className={"min-w-1/2 max-h-[80vh] flex flex-col"}>
+        <DialogHeader />
+        <div className="flex-1 overflow-y-auto">
           <div className="flex">
-            <Image
-              className="mb-4 mr-4 rounded-xl"
-              src={experience.logo}
-              alt="logo"
-              width={150}
-              height={150}
-            />
+            <div className="relative mr-4 mb-4 w-20 md:w-35 aspect-square">
+              <Image
+                className="rounded-xl"
+                src={experience.logo}
+                alt="logo"
+                fill
+              />
+            </div>
             <div>
               <h1 className="text-3xl">{experience.title}</h1>
               <h2>
@@ -48,17 +49,21 @@ export default function ExperienceDialog(props: {
               </h2>
             </div>
           </div>
-          <div className="flex gap-2 mb-4 ml-2">
-            {" "}
-            {experience.skills.map((skill, index) => (
-              <SkillBadge skill={skill} key={index} />
-            ))}
+          <div className="max-h-fit overflow-y-hidden">
+            <div className="flex flex-wrap gap-2 mb-4 ml-2">
+              {" "}
+              {experience.skills.map((skill, index) => (
+                <SkillBadge skill={skill} key={index} />
+              ))}
+            </div>
+            <div>
+              <ul className="text-base">
+                {experience.achievements.map((item, index) => (
+                  <li key={index}>• {item[i18n.language as languages]}</li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <ul className="text-base">
-            {experience.achievements.map((item, index) => (
-              <li key={index}>• {item[i18n.language as languages]}</li>
-            ))}
-          </ul>
         </div>
       </DialogContent>
     </Dialog>

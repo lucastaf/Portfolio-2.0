@@ -1,6 +1,5 @@
 "use client";
 import Header from "@/components/header";
-import Footer from "@/components/layout/footer";
 import ProfessionalExperiences from "@/components/sections/professional-experiencies/professional-experiences";
 import Projects from "@/components/sections/projects/projects";
 import Skills from "@/components/sections/skills/skills";
@@ -16,9 +15,9 @@ export default function Home() {
 
   return (
     <>
-      <div className="m-16 mt-32">
-        <div className="relative min-h-[calc(100vh-8rem)]">
-          <div className="flex flex-wrap justify-between">
+      <div className="pt-32 lg:px-16 md:px-8 px-4">
+        <div className="relative max-lg:mb-32 lg:min-h-[calc(100vh-8rem)]">
+          <div className="flex flex-wrap gap-8 justify-between w-full max-md:w-fit">
             <Header />
             <SideBar
               skillsRef={skillsRef}
@@ -30,7 +29,7 @@ export default function Home() {
             onClick={() =>
               skillsRef.current?.scrollIntoView({ behavior: "smooth" })
             }
-            className="absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer"
+            className="absolute bottom-8 left-1/2 -translate-x-1/2 cursor-pointer max-lg:hidden"
           />
         </div>
         <Skills ref={skillsRef} />
@@ -39,7 +38,7 @@ export default function Home() {
         <div className="my-16" />
         <Projects ref={projectsRef} />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

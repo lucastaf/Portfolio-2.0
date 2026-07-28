@@ -2,7 +2,7 @@ const exportObject = {
     translations: {
         header: {
             title: "Full-stack development, from frontend to infrastructure.",
-            body: "I have been developing solutions using TypeScript, Node.js, and React for over two years. I design scalable architectures, robust APIs, and modern interfaces, managing the entire application lifecycle.",
+            body: "I have been developing solutions using TypeScript, Node.js, and React for over three years. I design scalable architectures, robust APIs, and modern interfaces, managing the entire application lifecycle.",
             curriculum_download: "Get my resume"
         },
         sidebar: {

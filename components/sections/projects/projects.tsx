@@ -44,7 +44,7 @@ function ProjectsSection(props: {
         <h1 className="text-2xl">{title}</h1>
         <div />
       </div>
-      <div className="mx-16 mb-4 grid grid-cols-2 gap-8">
+      <div className="lg:mx-16 mb-4 grid lg:grid-cols-2 gap-8">
         <ProjectsList type={type} />
       </div>
     </div>

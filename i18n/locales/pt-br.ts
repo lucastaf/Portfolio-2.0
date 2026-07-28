@@ -2,7 +2,7 @@ const exportObject = {
     translations: {
         header: {
             title: "Desenvolvimento Fullstack do frontend à infraestrutura.",
-            body: "Há mais de 2 anos desenvolvendo soluções utilizando TypeScript, Node.js e React. Projeto arquiteturas escaláveis, APIs robustas e interfaces modernas, cuidando de todo o ciclo da aplicação.",
+            body: "Há mais de 3 anos desenvolvendo soluções utilizando TypeScript, Node.js e React. Projeto arquiteturas escaláveis, APIs robustas e interfaces modernas, cuidando de todo o ciclo da aplicação.",
             curriculum_download: "Baixe meu curriculo"
         },
         sidebar: {

@@ -41,7 +41,7 @@ export default function ProjectCard(props: { project: project }) {
           </div>
           <p>{project.description[i18n.language as languages]}</p>
         </div>
-        <div className="flex gap-2 mt-4">
+        <div className="flex gap-2 mt-4 flex-wrap">
           {project.skills.map((skill, index) => (
             <SkillBadge key={index} skill={skill} />
           ))}

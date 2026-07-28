@@ -23,7 +23,7 @@ export default function Header() {
           x: 0,
         }}
       >
-        <h1 className="text-6xl">Lucas Rauch</h1>
+        <h1 className="text-4xl md:text-6xl">Lucas Rauch</h1>
       </motion.div>
       <motion.div
         transition={{
@@ -39,8 +39,8 @@ export default function Header() {
           y: 0,
         }}
       >
-        <h2 className="mt-8 ml-4 text-4xl">{t("header.title")}</h2>
-        <h2 className="mt-2 ml-4 text-xl max-w-200">{t("header.body")}</h2>
+        <h2 className="mt-8 text-xl md:text-4xl">{t("header.title")}</h2>
+        <h2 className="mt-2 text-justify md:text-xl max-w-200">{t("header.body")}</h2>
       </motion.div>
 
       <motion.div
