@@ -1,9 +1,11 @@
 "use client";
 import Header from "@/components/header";
+import Footer from "@/components/layout/footer";
 import ProfessionalExperiences from "@/components/sections/professional-experiencies/professional-experiences";
 import Projects from "@/components/sections/projects/projects";
 import Skills from "@/components/sections/skills/skills";
 import SideBar from "@/components/sidebar";
+import { Separator } from "@/components/ui/separator";
 import { ChevronDown } from "lucide-react";
 import { useRef } from "react";
 import "../i18n";
@@ -33,12 +35,12 @@ export default function Home() {
           />
         </div>
         <Skills ref={skillsRef} />
-        <div className="my-16" />
+        <Separator className="my-16" />
         <ProfessionalExperiences ref={experiencesRef} />
-        <div className="my-16" />
+        <Separator className="my-16" />
         <Projects ref={projectsRef} />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

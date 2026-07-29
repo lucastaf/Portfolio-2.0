@@ -8,7 +8,7 @@ export default function Projects(props: { ref: Ref<HTMLDivElement> }) {
   const { ref } = props;
   const { t } = useTranslation();
   return (
-    <div className="mt-32 scroll-mt-32" ref={ref}>
+    <div className="scroll-mt-32" ref={ref}>
       <h1 className="mb-4 ml-16 text-4xl">{t("sections.projects")}</h1>
       <ProjectsSection
         title={t("sections.web")}

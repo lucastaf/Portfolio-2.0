@@ -26,7 +26,10 @@ const exportObject = {
             remote: "Remote",
             present: "Present",
             contact: "Contact",
-            social_media: "Social Media"
+            social_media: "Social Media",
+            phone: "Phone",
+            email: "E-mail",
+
         }
     }
 };

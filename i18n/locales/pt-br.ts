@@ -26,7 +26,9 @@ const exportObject = {
             remote: "Remoto",
             present: "Presente",
             contact: "Contato",
-            social_media: "Redes Sociais"
+            social_media: "Redes Sociais",
+            phone: "Telefone",
+            email: "E-mail",
         }
     }
 };
