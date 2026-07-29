@@ -24,7 +24,7 @@
       "jira",
       "github"
     ],
-    "logo": "/icons/companies/Logo_SP_Texto.svg",
+    "logo": "/icons/companies/logo-sp-texto.svg",
     "role_description": {
       "en-US": "Mid-level Fullstack Developer",
       "pt-BR": "Desenvolvedor Fullstack Pleno"
