@@ -31,7 +31,7 @@ export type project = {
     title: multiLanguageText;
     date: string;
     type: string;
-    external_link?: string;
+    external_link: string | null;
     banner: string;
     skills: string[]
     description: multiLanguageText;
