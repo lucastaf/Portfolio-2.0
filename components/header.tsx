@@ -40,7 +40,9 @@ export default function Header() {
         }}
       >
         <h2 className="mt-8 text-xl md:text-4xl">{t("header.title")}</h2>
-        <h2 className="mt-2 text-justify md:text-xl max-w-200">{t("header.body")}</h2>
+        <h2 className="mt-2 text-justify md:text-xl max-w-200">
+          {t("header.body")}
+        </h2>
       </motion.div>
 
       <motion.div
@@ -58,9 +60,14 @@ export default function Header() {
         }}
         className="mt-8 flex items-center justify-between"
       >
-        <Button variant={"outline"} className={"h-15 px-4 min-w-45 text-xl"}>
-          {t("header.curriculum_download")} <Download className="size-5" />
-        </Button>
+        <a href={t("misc.resume_path")}>
+          <Button
+            variant={"outline"}
+            className={"h-15 px-4 min-w-45 text-xl cursor-pointer"}
+          >
+            {t("header.curriculum_download")} <Download className="size-5" />
+          </Button>
+        </a>
         <div className="flex gap-4">
           <Link
             href="https://github.com/lucastaf"

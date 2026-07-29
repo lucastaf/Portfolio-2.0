@@ -29,6 +29,7 @@ const exportObject = {
             social_media: "Social Media",
             phone: "Phone",
             email: "E-mail",
+            resume_path: "/pdfs/Resume.pdf"
 
         }
     }

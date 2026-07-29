@@ -29,6 +29,7 @@ const exportObject = {
             social_media: "Redes Sociais",
             phone: "Telefone",
             email: "E-mail",
+            resume_path: "/pdfs/Curriculo.pdf"
         }
     }
 };
